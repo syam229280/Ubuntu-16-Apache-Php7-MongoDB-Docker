@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    ports:
+      - 8899:80
+
+  mongo-express:
+    ports:
+      - 8081:8081
